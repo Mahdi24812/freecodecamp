@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="this is a Travel Agency Page">
+    <meta charset="UTF-8">
+    <title>Travel Agency</title>
+  </head>
+  <body>
+
+    <!-- travel destinations section -->
+    <h1>travel destinations</h1>
+    <p>you can travel to the amazing colosseom or rhe alps or have fun in the sea</p>
+
+    <!-- Packages section -->    
+    <h2><em>Packages</em></h2>
+    <p><strong>transport - accommodation - car</strong></p>
+
+    <!-- list section -->
+    <ul>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+    </ul>
+
+    <!-- Itineraries section -->
+    <h2><em>Top Itineraries</em></h2>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="colosseo"></a>
+      <figcaption><strong>Colosseom</strong></figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="alps"></a>
+      <figcaption><strong>Alps</strong></figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="sea"></a>
+      <figcaption><strong>Sea</strong></figcaption>
+    </figure>
+  </body>
+  <footer>
+    <p><strong>Second project in freecodecamp created with love</strong></p>
+  </footer>
+</html>
