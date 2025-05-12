@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+
+        <!-- header section -->
+        <h1>Video Compilation Page</h1>
+        <p>this is a page for video compilation Page</p>
+
+        <!-- first section -->
+        <section>
+            <h2>Microsoft Excel Tutorial for Beginners - Full Course</h2>
+            <p>Lean how to use Microsoft Excel from the beginning by creating 6 real-world projects. Most of the content applies to Google Sheets as well.</p>
+            <iframe src="https://www.youtube.com/embed/Vl0H-qTclOg?si=WeiYION4l6Rlan3h" title="Microsoft Excel Tutorial for Beginners - Full Course" width="620" height="350"></iframe>
+        </section>
+
+        <!-- second section -->
+        <section>
+            <h2>Learn Python - Full Course for Beginners [Tutorial]</h2>
+            <p>This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python programmer in no time!</p>
+            <iframe src="https://www.youtube.com/embed/rfscVS0vtbw?si=j5i9Pm7ZBn4-FPky" title="Learn Python - Full Course for Beginners [Tutorial]" width="620" height="350"></iframe>
+        </section>
+
+        
+        <!-- third section -->
+        <section>
+            <h2>Introduction to Linux – Full Course for Beginners</h2>
+            <p>If you're new to Linux, this beginner's course is for you. You'll learn many of the tools used every day by both Linux SysAdmins and the millions of people running Linux distributions like Ubuntu on their PCs. This course will teach you how to navigate Linux's Graphical User Interfaces and powerful command line tool ecosystem.</p>
+            <iframe src="https://www.youtube.com/embed/sWbUDq4S6Y8?si=2RtxKRX8zn74Ew5e" title="Introduction to Linux – Full Course for Beginners" width="620" height="350"></iframe>
+        </section>
+    </main>
+</body>
+<footer>
+  <p><strong>third project in freecodecamp created with love</strong></p>
+</footer>
+</html>
