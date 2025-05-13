@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Event Hub</h1>
+        <!-- Nav section -->
+        <nav>
+            <ul>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#past-events">Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!-- Upcoming Events section -->
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+
+            <article>
+                <h3>Old Technology Gathering</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>The event <strong>starts</strong> at <time datetime="2025-05-10 12:00"><strong>May 10, 2025 at 12:00 PM</strong></time></p>
+            </article>
+
+            <article>
+                <h3>Commodore 64 Programming</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>The event <strong>starts</strong> at <time datetime="2025-05-13 12:00"><strong>May 13, 2025 at 12:00 PM</strong></time></p>
+            </article>
+        </section>
+
+        <!-- Past Events Section -->
+        <section id="past-events">
+            <h2>Past Events</h2>
+
+            <article>
+                <h3>AI Technology Gathering</h3>
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="AI technology conference">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>The event <strong>ended</strong> at <time datetime="2025-05-01 12:00"><strong>May 1, 2025 at 12:00 PM</strong></time></p>
+
+            </article>
+
+            <article>
+                <h3>LLM Webinar</h3>
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="LLM webinar session">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>The event <strong>ended</strong> at <time datetime="2025-05-05 12:00"><strong>May 5, 2025 at 12:00 PM</strong></time></p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
