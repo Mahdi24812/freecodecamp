@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">this a simple survey for out clients to improve the services.</p>
+    </header>
+
+    <main>
+      <form id="survey-form" action="#" method="POST">
+        <fieldset>
+          <legend><b>Personal Info</b></legend>
+
+          <label id="name-label" for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"  
+            id="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
+
+          <label id="number-label" for="number">Age</label>
+          <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Enter Your Number"
+            min="18"
+            max="100"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend><b>Services</b></legend>
+          
+          <label for="dropdown">Services you are interested on</label>
+          <select id="dropdown">
+            <option value="design">Graphic Design</option>
+            <option value="development" selected>Web Development</option>
+            <option value="admin">Administration</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend><b>How Do You Rate Our Services</b></legend>
+
+          <label for="rating">1 Star</label>
+          <input
+            type="radio"
+            id="rating"
+            name="rating"
+            value="rating"
+          />
+
+          <label for="rating">2 Star</label>
+          <input
+            type="radio"
+            id="rating"
+            name="rating"
+            value="rating"
+          />
+
+          <label for="rating">3 Star</label>
+          <input
+            type="radio"
+            id="rating"
+            name="rating"
+            value="rating"
+          />
+
+          <label for="rating">4 Star</label>
+          <input
+            type="radio"
+            id="rating"
+            name="rating"
+            value="rating"
+          />
+
+          <label for="rating">5 Star</label>
+          <input
+            type="radio"
+            id="rating"
+            name="rating"
+            value="rating"
+            checked
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend><b>How Did You Hear About Us</b></legend>
+
+          <label for="social">Social Media</labe>
+          <input
+            type="checkbox"
+            id="social"
+            name="social"
+            value="social"
+          />
+
+          <label for="referral">Referral</labe>
+          <input
+            type="checkbox"
+            id="referral"
+            name="referral"
+            value="referral"
+          />
+
+          <label for="other">Other</label>
+          <input
+            type="checkbox"
+            id="other"
+            name="other"
+            value="other"
+          />
+        </fieldset>
+
+        <label for="comments"><b>Additional Comments</b></label><br>
+        <textarea id="comments" placeholder="Enter Your Comments Here...." cols="30" rows="10"></textarea>
+
+        <button id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
